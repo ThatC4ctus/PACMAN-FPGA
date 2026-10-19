@@ -2,7 +2,7 @@
 **Requirements:**
 Functional: <br>
 | F1 | Display a 28×36 tile playfield matching the original arcade maze layout | Must | <br>
-| F2 | Player controls Pac-Man with 4 directional buttons | Must | <br>
+| F2 | Player controls Pac-Man with 4 directional buttons or a 4-way arcade joystick | Must | <br>
 | F3 | Pac-Man animated with 3 frames (closed, mid, open) | Must | <br>
 | F4 | 4 ghosts, each with at least 2 animation frames, sharing graphics with per-ghost colour palettes | Must | <br>
 | F5 | Dots and power pellets; eating a power pellet makes ghosts frightened | Must | <br>
@@ -28,15 +28,15 @@ Non-functional: <br>
 - Two-player mode
 - Original arcade graphics/ROM data (all sprites are original artwork)
 
-## Hardware
+## Hardware  (as of 19/10/2026)
 | Item | Purpose | Cost |
 |------|---------|------|
-| Digilent Cmod A7-35T | FPGA board | £ |
-| Digilent Pmod VGA | 12-bit VGA DAC and connector | £ |
-| Breadboard + jumper wires | Connections | £ |
-| 4× push buttons (or joystick) | Controls | £ |
-| VGA cable | Monitor connection | £ |
-| **Total** | | **£** |
+| Digilent Cmod A7-35T | FPGA board | £94.00 |
+| Digilent Pmod VGA | 12-bit VGA DAC and connector | £12.66 |
+| Breadboard + jumper wires | Connections | £5 |
+| 4× push buttons (or joystick) | Controls | £2-4 or ~£10 |
+| VGA cable | Monitor connection | ~£2-3 |
+| **Total** | | **~£118.66** |
 
 ## Tools
 - **Verilog** – hardware description language
